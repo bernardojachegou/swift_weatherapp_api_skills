@@ -7,7 +7,14 @@
 
 import UIKit
 
+import Alamofire
+
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var cityNameLabel: UILabel!
+    @IBOutlet weak var temperatureValueLabel: UILabel!
+    @IBOutlet weak var humidityValueLabel: UILabel!
+    @IBOutlet weak var windSpeedValueLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
